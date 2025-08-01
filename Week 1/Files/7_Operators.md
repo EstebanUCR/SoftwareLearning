@@ -24,12 +24,14 @@ Los operadores son símbolos que permiten realizar operaciones en programación,
 | `!==`    | Desigualdad estricta  | Compara si dos valores o tipos son diferentes.<br>Ejemplo: `5 !== "5" // true` |
 | `!`      | Negación lógica (NOT) | Invierte el valor lógico.<br>Ejemplo: `!true // false` |
 | `&&`     | AND (Y lógico)        | Ambas condiciones deben ser verdaderas.<br>Ejemplo: `true && false // false` |
-| `||`     | OR (O lógico)         | Al menos una condición debe ser verdadera.<br>Ejemplo: `true || false // true` |
+| `2 palitos`     | OR (O lógico)         | Al menos una condición debe ser verdadera.<br>Ejemplo: `true || false // true` |
 | `>`      | Mayor que             | Compara si el valor de la izquierda es mayor.<br>Ejemplo: `5 > 3 // true` |
 | `<`      | Menor que             | Compara si el valor de la izquierda es menor.<br>Ejemplo: `2 < 4 // true` |
 | `>=`     | Mayor o igual         | Compara si el valor de la izquierda es mayor o igual.<br>Ejemplo: `5 >= 5 // true` |
 | `<=`     | Menor o igual         | Compara si el valor de la izquierda es menor o igual.<br>Ejemplo: `3 <= 4 // true` |
 | `? :`    | Ternario              | Operador condicional.<br>Ejemplo: `let resultado = (x > 5) ? "Mayor" : "Menor o igual";` |
+| `//`     | Comentario            | Operador Comentario, sirve para dejar comentarios en el codigo y que no se van a ejecutar|
+| `/**/`     | Comentario            | Operador Comentario, sirve para dejar comentarios en el codigo y que no se van a ejecutar|
 
 ---
 
@@ -47,7 +49,15 @@ let division = 10 / 2;    // 5
 let resto = 7 % 3;        // 1
 
 
-// Incremento y decremento
+/* 
+Incremento y decremento
+Esta sección son ejemplos
+de operadores que vimos en el 
+documento numero 7 donde habrán
+ejemplos relacionados a el 
+incremento con el simbología de ++
+y decremento con la simbología --
+*/
 let contador = 0;
 contador++; // 1
 contador--; // 0
