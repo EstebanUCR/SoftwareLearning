@@ -44,7 +44,7 @@ Permite elegir entre dos caminos: uno si la condición es verdadera y otro si es
 **Ejemplo lógico:** “Si llueve, llevo paraguas. Si no, salgo sin paraguas.”
 
 ```typescript
-let llueve = true;
+let llueve = false;
 if (llueve) {
   console.log("Llevo paraguas");
 } else {
@@ -60,7 +60,7 @@ Permite evaluar varias condiciones diferentes y ejecutar acciones distintas seg�
 **Ejemplo lógico:** “Si la nota es mayor a 90, es A. Si es mayor a 80, es B. Si no, es C.”
 
 ```typescript
-let nota = 85;
+let nota = 75;
 if (nota > 90) {
   console.log("A");
 } else if (nota > 80) {
@@ -86,6 +86,12 @@ if (mayorEdad) {
   } else {
     console.log("No puede conducir: no tiene licencia");
   }
+} else {
+  console.log("No puede conducir: no es mayor de edad");
+}
+
+if (mayorEdad && tieneLicencia ){
+  console.log("Puede conducir");
 } else {
   console.log("No puede conducir: no es mayor de edad");
 }
