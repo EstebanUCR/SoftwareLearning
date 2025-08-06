@@ -1,32 +1,31 @@
 edad = 20
 
-# 🧮 Variables, Tipos de Datos y Entrada/Salida (Input/Output) en Python
+# 🧮 Variables, Tipos de Datos y Entrada/Salida (Input/Output) en TypeScript
 
 ## ¿Qué es una variable?
 Una **variable** es un nombre que se usa para guardar un valor (número, texto, etc.) que puede cambiar durante la ejecución del programa.
 
 **Ejemplo conceptual:**
-```python
-edad = 20  # Guarda el número 20 en la variable 'edad'
+```typescript
+let edad: number = 20; // Guarda el número 20 en la variable 'edad'
 ```
 
 ---
 
-## Tipos de datos más comunes en Python
+## Tipos de datos más comunes en TypeScript
 
-| Tipo   | Descripción                        | Ejemplo           |
-|--------|------------------------------------|-------------------|
-| int    | Números enteros                    | 10, -3, 1000      |
-| float  | Números decimales                  | 3.14, -0.5        |
-| str    | Texto o cadenas de caracteres      | "hola", "Python" |
-| bool   | Verdadero o falso                  | True, False       |
+| Tipo     | Descripción                        | Ejemplo                |
+|----------|------------------------------------|------------------------|
+| number   | Números enteros o decimales        | 10, -3, 3.14, 1000     |
+| string   | Texto o cadenas de caracteres      | "hola", "TypeScript"   |
+| boolean  | Verdadero o falso                  | true, false            |
 
 ---
 
 ## Entrada (input) y salida (output)
 
-- **Entrada (input):** Permite al usuario escribir un dato y guardarlo en una variable.
-- **Salida (print):** Muestra un mensaje o resultado en pantalla.
+- **Entrada (input):** Permite al usuario escribir un dato y guardarlo en una variable. En TypeScript (Node.js), se puede usar la librería `prompt-sync` para leer datos desde la consola.
+- **Salida (console.log):** Muestra un mensaje o resultado en pantalla.
 
 ### ¿Por qué es importante?
 Usar input y output te permite interactuar con el usuario, guardar información y mostrar resultados. Es la base para crear programas útiles y dinámicos.
@@ -35,25 +34,39 @@ Usar input y output te permite interactuar con el usuario, guardar información 
 
 ## Ejemplo práctico de input y output
 
-```python
-nombre = input("¿Cuál es tu nombre?")  # El usuario escribe su nombre y se guarda en la variable
-print("Hola, " + nombre)                # Se muestra un saludo usando el valor guardado
+Para usar entrada de datos en consola en TypeScript, primero instala la librería `prompt-sync`:
+
+```bash
+npm install prompt-sync
+```
+
+Luego puedes usarla así:
+
+```typescript
+import promptSync from 'prompt-sync';
+const prompt = promptSync();
+
+const nombre: string = prompt("¿Cuál es tu nombre? "); // El usuario escribe su nombre
+console.log("Hola, " + nombre); // Se muestra un saludo usando el valor guardado
 ```
 
 ---
 
 ## Ejemplo: Guardar varios valores
 
-```python
-edad = int(input("¿Cuál es tu edad? "))      # Convierte la entrada a número entero
-altura = float(input("¿Cuál es tu altura? ")) # Convierte la entrada a número decimal
-print("Tienes", edad, "años y mides", altura, "metros.")
+```typescript
+import promptSync from 'prompt-sync';
+const prompt = promptSync();
+
+const edad: number = Number(prompt("¿Cuál es tu edad? "));
+const altura: number = Number(prompt("¿Cuál es tu altura? "));
+console.log(`Tienes ${edad} años y mides ${altura} metros.`);
 ```
 
 ---
 
 ## Información importante
-- Siempre guarda el resultado de `input()` en una variable para poder usarlo después.
-- Por defecto, `input()` devuelve texto (str). Si necesitas un número, usa `int()` o `float()` para convertirlo.
-- Usa `print()` para mostrar cualquier valor, variable o mensaje en pantalla.
-- Puedes combinar variables y texto usando `+` o comas en `print()`.
+- Siempre guarda el resultado de `prompt()` en una variable para poder usarlo después.
+- Por defecto, `prompt()` devuelve texto (`string`). Si necesitas un número, usa `Number()` para convertirlo.
+- Usa `console.log()` para mostrar cualquier valor, variable o mensaje en pantalla.
+- Puedes combinar variables y texto usando `+` o plantillas con backticks (`` `texto ${variable}` ``).
