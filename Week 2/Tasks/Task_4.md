@@ -1,0 +1,1 @@
+Crear un diccionario de productos con sus precios, mostrar un menú donde muestré los productos, y cuando se ingrese la opción se muestre el precio y una opción de salir y volver al menú
