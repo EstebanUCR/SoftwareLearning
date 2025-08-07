@@ -33,5 +33,12 @@ Escribe un pseudocódigo que cumpla con lo siguiente:
 Escribe tu respuesta aquí:
 
 ```text
-// Tu pseudocódigo aquí
+Inicio
+  Definir Hora como 19
+  Mientras Hora <= 23
+    Si Hora >= 8 y Hora <= 20
+      Mostrar " Puedes Jugar "
+    Sino
+      Mostrar " No puedes Jugar "
+Fin
 ```

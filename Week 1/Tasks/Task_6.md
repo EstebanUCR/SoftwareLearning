@@ -18,17 +18,17 @@ Para cada operador:
 
 1. 5 == "5"
 ```typescript
-// Escribe aquí tu respuesta
+let cinco = 5 == "5"; // true
 
 ```
 2. "hola" == "hola"
 ```typescript
-// Escribe aquí tu respuesta
+let saludo = "hola" == "hola"; // true
 
 ```
 3. true == 1
 ```typescript
-// Escribe aquí tu respuesta
+let comparacion = true == 1; // true
 
 ```
 
@@ -36,17 +36,17 @@ Para cada operador:
 
 4. 10 == "10"
 ```typescript
-// Valor de verdad:
+// true
 
 ```
 5. 0 == false
 ```typescript
-// Valor de verdad:
+// true
 
 ```
 6. "abc" == "def"
 ```typescript
-// Valor de verdad:
+// false
 
 ```
 
@@ -55,17 +55,17 @@ Para cada operador:
 
 1. 5 === "5"
 ```typescript
-// Escribe aquí tu respuesta
+let CincoEstricto =  5 === "5"; // false
 
 ```
 2. "hola" === "hola"
 ```typescript
-// Escribe aquí tu respuesta
+let SaludoEstricto =  "hola" === "hola"; // true
 
 ```
 3. true === 1
 ```typescript
-// Escribe aquí tu respuesta
+let ComparacionEstricta = true === 1; // false
 
 ```
 
@@ -73,17 +73,17 @@ Para cada operador:
 
 4. 10 === "10"
 ```typescript
-// Valor de verdad:
+// false
 
 ```
 5. 0 === false
 ```typescript
-// Valor de verdad:
+// false
 
 ```
 6. "abc" === "abc"
 ```typescript
-// Valor de verdad:
+// true
 
 ```
 
@@ -92,17 +92,17 @@ Para cada operador:
 
 1. 5 != "5"
 ```typescript
-// Escribe aquí tu respuesta
+let CincoDiferente = 5 != "5"; // false
 
 ```
 2. "hola" != "adios"
 ```typescript
-// Escribe aquí tu respuesta
+let SaludoDiferente = "hola" != "adios"; // true 
 
 ```
 3. true != 0
 ```typescript
-// Escribe aquí tu respuesta
+let ComparacionDiferente = true != 0; // true 
 
 ```
 
@@ -110,17 +110,17 @@ Para cada operador:
 
 4. 10 != "10"
 ```typescript
-// Valor de verdad:
+// false
 
 ```
 5. 0 != false
 ```typescript
-// Valor de verdad:
+// false
 
 ```
 6. "abc" != "def"
 ```typescript
-// Valor de verdad:
+// true
 
 ```
 
@@ -129,17 +129,17 @@ Para cada operador:
 
 1. 5 !== "5"
 ```typescript
-// Escribe aquí tu respuesta
+let NumDesEst = 5 !== "5"; // true
 
 ```
 2. "hola" !== "hola"
 ```typescript
-// Escribe aquí tu respuesta
+let SalDesEst = "hola" !== "hola"; // false
 
 ```
 3. true !== 1
 ```typescript
-// Escribe aquí tu respuesta
+let ComDesEst = true !== 1; // true 
 
 ```
 
@@ -147,17 +147,17 @@ Para cada operador:
 
 4. 10 !== "10"
 ```typescript
-// Valor de verdad:
+// true
 
 ```
 5. 0 !== false
 ```typescript
-// Valor de verdad:
+// true
 
 ```
 6. "abc" !== "def"
 ```typescript
-// Valor de verdad:
+// true
 
 ```
 

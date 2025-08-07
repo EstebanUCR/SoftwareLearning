@@ -30,6 +30,21 @@ Escribe un pseudocódigo donde:
 Escribe tu pseudocódigo aquí:
 
 ```text
-// Tu pseudocódigo para la pizza
+Inicio
+  Definir ingredientes como ["masa", "salsa de tomate", "hongos", "peperoni", "queso"]
+    Si "masa" esta en ingredientes y "salsa de tomate" esta en ingredientes y "hongos" esta en ingredientes y "peperoni" esta en ingredientes y "queso" esta en ingredientes 
+    Mostrar " Se puede crear pizza "
+  Sino
+    Si ["masa", "salsa de tomate", "hongos", "peperoni"]
+      Mostrar " Falta queso "
+    Si ["masa", "salsa de tomate", "hongos", "queso"]
+      Mostrar "Falta peperoni"
+    Si ["masa", "salsa de tomate", "peperoni", "queso"]
+      Mostrar "Falta hongos"
+    Si ["masa", "hongos", "peperoni", "queso"]
+      Mostrar "Falta salsa de tomate"
+    Si ["salsa de tomate", "hongos", "peperoni", "queso"]
+      Mostrar "Falta masa"
+Fin
 ```
 
