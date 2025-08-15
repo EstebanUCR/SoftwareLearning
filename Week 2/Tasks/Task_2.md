@@ -16,6 +16,10 @@ Hola, Ana. Tienes 22 años. ¡Bienvenido!
 ```
 
 ```typescript
-// Escribe tu código aquí
+import promptSync from 'prompt-sync';
+const prompt = promptSync();
 
+const nombre: string = prompt("¿Cuál es tu nombre? ");
+const edad: number = Number(prompt("¿Cuál es tu edad? "));
+console.log(`Hola, ${nombre}. Tienes ${edad} años. ¡Bienvenido!`);
 ```
