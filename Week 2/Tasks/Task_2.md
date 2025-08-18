@@ -16,6 +16,7 @@ Hola, Ana. Tienes 22 años. ¡Bienvenido!
 ```
 
 ```typescript
+
 import promptSync from 'prompt-sync';
 const prompt = promptSync();
 

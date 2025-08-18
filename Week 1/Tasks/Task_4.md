@@ -37,7 +37,7 @@ Inicio
   Sino
     Si queso no está en ingredientes
       Mostrar "Falta queso"
-    Sino si "masa", "salsa de tomate", "hongos", "queso"]
+    Sino si ["masa", "salsa de tomate", "hongos", "queso"]
       Mostrar "Falta peperoni"
     Si ["masa", "salsa de tomate", "peperoni", "queso"]
       Mostrar "Falta hongos"
