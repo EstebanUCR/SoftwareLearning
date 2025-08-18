@@ -9,7 +9,9 @@ Resuelve los siguientes ejercicios usando funciones en TypeScript. Escribe tu re
 ### 1. Crea una función llamada `saludar` que reciba un nombre (string) como parámetro y muestre en consola el mensaje: "Hola, [nombre]!".
 
 ```typescript
-// Escribe tu función aquí
+function saludar(nombre: string): void {
+    console.log ("Hola," + nombre + "!");
+}
 
 ```
 
@@ -47,7 +49,9 @@ function esMayorDeEdad(edad: number): bool {
 ### 3. Crea una función llamada `calcularIMC` que reciba dos parámetros: peso (number) y altura (number), y devuelva el índice de masa corporal (IMC). El IMC se calcula como peso / (altura * altura).
 
 ```typescript
-// Escribe tu función aquí
+function calcularIMC(peso: number, altura: number): void {
+    return peso / (altura * altura); 
+}
 
 ```
 
@@ -57,6 +61,8 @@ function esMayorDeEdad(edad: number): bool {
 "Hola, me llamo [nombre], tengo [edad] años y mido [altura] metros."
 
 ```typescript
-// Escribe tu función aquí
+function presentarPersona(nombre: string, edad: number, altura: number): void {
+    console.log( "hola, me llamo " + nombre + ", tengo " + edad + " años" + " y mido " + altura " metros");
+}
 
 ```
