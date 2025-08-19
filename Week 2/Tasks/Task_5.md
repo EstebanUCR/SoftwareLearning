@@ -13,7 +13,7 @@ Escribe un pseudocódigo y luego el código en TypeScript donde:
 ### Pseudocódigo:
 ```
 Inicio
-    definir requerimientos como [ "visa", "maleta", "pasaporte", "boleto de vion"]
+    definir requerimientos como [ "visa", "maleta", "pasaporte", "boleto de avion"]
     Si "visa" está en requerimientos
         Si "maleta" está en requerimientos
             Si "pasaporte" está en requerimientos
