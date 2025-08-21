@@ -3,7 +3,7 @@
 
 ## Instrucciones
 
-Explique cada una de las siguientes acciones en git y en qué casos se deben ser usados:
+Explique cada una de las siguientes acciones en git, también agregar el link de donde sacó la información y en qué casos se deben ser usados:
 - rebase and merge
 - squash and merge
 - git reset
